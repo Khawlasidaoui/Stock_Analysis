@@ -15,6 +15,7 @@ Using VBA with the analysis helps automate it and reduces the chances of errors 
 
 2. Adjusting the code using loops to run through all stock types and return yearly volume and yearly return in the output sheet:
 
+```
 Sub AllStocksAnalysis()
    '1) Format the output sheet on All Stocks Analysis worksheet
    Worksheets("All Stocks Analysis").Activate
@@ -82,6 +83,7 @@ Sub AllStocksAnalysis()
    Next i
 
 End Sub
+```
 
 
 
