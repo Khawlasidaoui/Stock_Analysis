@@ -9,8 +9,9 @@ Using VBA with the analysis helps automate it and reduces the chances of errors 
 
 
 ## Analysis
-1. Writing a MACROS to compute DQ stock yearly volume and yearly return: 
+1. Writing a Sub to compute DQ stock yearly volume and yearly return: 
 
+![yearly return and volume](https://user-images.githubusercontent.com/79415699/109164731-c0be9c00-7748-11eb-8f38-d62330e281da.JPG)
 
 
 
