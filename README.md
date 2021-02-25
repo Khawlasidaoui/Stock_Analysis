@@ -11,7 +11,7 @@ Using VBA with the analysis helps automate it and reduces the chances of errors 
 
 ## Analysis
 1. Writing a MACROS to compute DQ stock yearly volume:
-[]
+![yearly](https://user-images.githubusercontent.com/79415699/109161252-d336d680-7744-11eb-8193-34c1af5be990.JPG)
 
 
 ## Results
