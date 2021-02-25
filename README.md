@@ -9,11 +9,11 @@ Using VBA with the analysis helps automate it and reduces the chances of errors 
 
 
 ## Analysis
-####1. Writing a Sub to compute DQ stock yearly volume and yearly return: 
+###1. Writing a Sub to compute DQ stock yearly volume and yearly return: 
 
 ![yearly return and volume](https://user-images.githubusercontent.com/79415699/109164731-c0be9c00-7748-11eb-8f38-d62330e281da.JPG)
 
-####2. Adjusting the code using loops to run through all stock types and return yearly volume and yearly return in the output sheet:
+###2. Adjusting the code using loops to run through all stock types and return yearly volume and yearly return in the output sheet:
 
 ```
 Sub AllStocksAnalysis()
@@ -88,7 +88,7 @@ Sub AllStocksAnalysis()
 End Sub
 ```
 
-####3. Static Formatting
+###3. Static Formatting
 
 
 
