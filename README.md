@@ -8,10 +8,13 @@ Using VBA with the analysis helps automate it and reduces the chances of errors 
 1. Analyze the total daily volume and yearly return for each stock. If a stock is traded often, then the price will accurately reflect its value. The yearly volume gives a rough idea of how often DQ stock gets traded. 
 
 
-
 ## Analysis
-1. Writing a MACROS to compute DQ stock yearly volume:
-![yearly](https://user-images.githubusercontent.com/79415699/109161252-d336d680-7744-11eb-8193-34c1af5be990.JPG)
+1. Writing a MACROS to compute DQ stock yearly volume and yearly return: 
+
+
+
+
+
 
 
 ## Results
