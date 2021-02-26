@@ -89,7 +89,7 @@ End Sub
 ```
 
 #### 3. Static and conditional Formatting
-* Set up a loop that goes through every row and changes the cells color based on positive/negative values. This helped better see and interpret the results. 
+* Set up a loop that goes through every row and changes the cells color based on positive/negative values to better see and interpret the results. 
 
 ![color conditional formatting](https://user-images.githubusercontent.com/79415699/109344764-2f7d2180-783d-11eb-8065-f6e69301b073.JPG)
 
@@ -99,14 +99,14 @@ End Sub
 ![buttons](https://user-images.githubusercontent.com/79415699/109347149-acf66100-7840-11eb-8bc6-a2b6798c83fa.JPG)
 
 * The first button clears the worksheet, it's linked to the following subroutine:
-
-`Sub ClearWorksheet()
+```
+Sub ClearWorksheet()
 
 Cells.Clear
 
-End Sub`
-
-* The second button runs the analysis for all stocks as per (3)
-* The Third button formats the table to make sense of the results - green=good return, red=bad return)
+End Sub
+```
+* The second button runs the analysis for all stocks as per (2)
+* The Third button formats the table to make sense of the results (green=good return, red=bad return), as per (3).
 
 ## Results
