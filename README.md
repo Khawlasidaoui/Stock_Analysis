@@ -93,15 +93,19 @@ End Sub
 
 ![color conditional formatting](https://user-images.githubusercontent.com/79415699/109344764-2f7d2180-783d-11eb-8065-f6e69301b073.JPG)
 
-#### 4. Create Button to run analysis
+#### 4. Create Buttons to run, format and clear analysis
 * Created a buttons for the end user to use to run the analysis, which makes the program more interactive and accessible. 
 
+![buttons](https://user-images.githubusercontent.com/79415699/109347149-acf66100-7840-11eb-8bc6-a2b6798c83fa.JPG)
 
 * The first button clears the worksheet, it's linked to the following subroutine:
 `
 Sub ClearWorksheet()
+
 Cells.Clear
+
 End Sub
+
 `
 * The second button runs the analysis for all stocks as per (3)
 * The Third button formats the table to make sense of the results - green=good return, red=bad return)
