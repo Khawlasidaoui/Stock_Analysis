@@ -117,5 +117,33 @@ Currently the Macros only analysis stocks in 2018, to modify it and make allow t
 
 Below is an example of the input box and the 2017 Stock Analysis results:
 
+![userinput](https://user-images.githubusercontent.com/79415699/109350488-8f77c600-7845-11eb-9d48-ad92276fe9f1.JPG)
+
+![2017results](https://user-images.githubusercontent.com/79415699/109350494-91418980-7845-11eb-9d72-5f1dd72fe0a9.JPG)
+
+#### 6. Code Performance
+To measure how long the code took to perform the analysis, a timer was added at the beginning and end of the sub as follows:
+
+```Sub AllStocksAnalysis()
+
+'Set Timer
+Dim startTime As Single
+Dim endTime As Single
+
+'User inputs value for year
+
+yearValue = InputBox("What year would you like to run the analysis on?")
+
+    startTime = Timer
+```
+ 
+```Next i
+
+    endTime = Timer
+    MsgBox " This code ran in " & (endTime - startTime) & "seconds for the year" & (yearValue)
+    
+End Sub
+```
+The result is displayed below:
 
 
