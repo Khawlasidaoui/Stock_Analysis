@@ -144,6 +144,6 @@ yearValue = InputBox("What year would you like to run the analysis on?")
     
 End Sub
 ```
-The result is displayed below:
+The runtime for 2017 analysis is displayed below:
 
-
+![runtime](https://user-images.githubusercontent.com/79415699/109351576-7ec84f80-7847-11eb-8989-067a72237bcf.JPG)
