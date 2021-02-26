@@ -90,6 +90,8 @@ End Sub
 
 #### 3. Static and conditional Formatting
 * Set up a loop that goes through every row and changes the cells color based on positive/negative values. This helped better see and interpret the results. 
+* 
+![color conditional formatting](https://user-images.githubusercontent.com/79415699/109344764-2f7d2180-783d-11eb-8065-f6e69301b073.JPG)
 
 
 
