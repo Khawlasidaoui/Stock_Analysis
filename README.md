@@ -99,14 +99,13 @@ End Sub
 ![buttons](https://user-images.githubusercontent.com/79415699/109347149-acf66100-7840-11eb-8bc6-a2b6798c83fa.JPG)
 
 * The first button clears the worksheet, it's linked to the following subroutine:
-`
-Sub ClearWorksheet()
+
+`Sub ClearWorksheet()
 
 Cells.Clear
 
-End Sub
+End Sub`
 
-`
 * The second button runs the analysis for all stocks as per (3)
 * The Third button formats the table to make sense of the results - green=good return, red=bad return)
 
