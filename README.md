@@ -109,4 +109,13 @@ End Sub
 * The second button runs the analysis for all stocks as per (2)
 * The Third button formats the table to make sense of the results (green=good return, red=bad return), as per (3).
 
-## Results
+#### 5.Running analysis for any year.
+Currently the Macros only analysis stocks in 2018, to modify it and make allow the end-user to pick a year for analysis, the following changes were made:
+* Added an inputbox at the beginning of the code in (2)
+```yearValue = InputBox("What year would you like to run the analysis on?")```
+* Replaced hard-coded "2018" string ```Worksheets("2018").Activate``` with the dynamic value stored in yearValue ``````Worksheets(yearValue).Activate```
+
+Below is an example of the input box and the 2017 Stock Analysis results:
+
+
+
