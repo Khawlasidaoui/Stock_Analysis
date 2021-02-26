@@ -88,7 +88,8 @@ Sub AllStocksAnalysis()
 End Sub
 ```
 
-#### 3. Static Formatting
+#### 3. Static and conditional Formatting
+* Set up a loop that goes through every row and changes the cells color based on positive/negative values. This helped better see and interpret the results. 
 
 
 
