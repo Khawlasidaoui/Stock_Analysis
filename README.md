@@ -113,7 +113,7 @@ End Sub
 Currently the Macros only analysis stocks in 2018, to modify it and make allow the end-user to pick a year for analysis, the following changes were made:
 * Added an inputbox at the beginning of the code in (2)
 ```yearValue = InputBox("What year would you like to run the analysis on?")```
-* Replaced hard-coded "2018" string ```Worksheets("2018").Activate``` with the dynamic value stored in yearValue ``````Worksheets(yearValue).Activate```
+* Replaced hard-coded "2018" string ```Worksheets("2018").Activate``` with the dynamic value stored in yearValue ```Worksheets(yearValue).Activate```
 
 Below is an example of the input box and the 2017 Stock Analysis results:
 
@@ -149,9 +149,9 @@ The runtime for 2017 analysis is displayed below:
 ![runtime](https://user-images.githubusercontent.com/79415699/109351576-7ec84f80-7847-11eb-8989-067a72237bcf.JPG)
 
 #### 7. Refactored code
-The corde was refactored to improve its performance - reduce execution time. The refactored code combined the formatting and stock analysis calculations into one sub statement allowing for processing with one sub statement rather than two. Execution time went from 0.88 to 0.22 seconds for the year 2017. Below is the new runtime for the refactored code:
+The corde was refactored to improve its performance - reduce execution time. The refactored code combined the formatting and stock analysis calculations into one sub statement allowing for processing with one sub statement rather than two. Execution time went from 0.88 to 0.24 seconds for the year 2017. Below is the new runtime for the refactored code:
 
-![refactored runtime](https://user-images.githubusercontent.com/79415699/109434931-a05f3d80-79e5-11eb-97ae-4a6d354c69e8.JPG)
+![VBA_Challeng_2017](https://user-images.githubusercontent.com/79415699/109435137-ed8fdf00-79e6-11eb-9ec4-bb06efac6625.PNG)
 
 
 ## Summary
