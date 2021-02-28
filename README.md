@@ -151,6 +151,7 @@ The runtime for 2017 analysis is displayed below:
 #### 7. Refactored code
 The corde was refactored to improve its performance - reduce execution time. The refactored code combined the formatting and stock analysis calculations into one sub statement allowing for processing with one sub statement rather than two. Execution time went from 0.88 to 0.22 seconds for the year 2017. Below is the new runtime for the refactored code:
 
+![refactored runtime](https://user-images.githubusercontent.com/79415699/109434931-a05f3d80-79e5-11eb-97ae-4a6d354c69e8.JPG)
 
 
 ## Summary
