@@ -147,3 +147,18 @@ End Sub
 The runtime for 2017 analysis is displayed below:
 
 ![runtime](https://user-images.githubusercontent.com/79415699/109351576-7ec84f80-7847-11eb-8989-067a72237bcf.JPG)
+
+#### 7. Refactored code
+The corde was refactored to improve its performance - reduce execution time. The refactored code combined the formatting and stock analysis calculations into one sub statement allowing for processing with one sub statement rather than two. Execution time went from 0.88 to 0.22 seconds for the year 2017. Below is the new runtime for the refactored code:
+
+
+
+## Summary
+
+#### Pros and cons of refactoring code.
+* Pros: What are the advantages or disadvantages of refactoring code? The advantages of refactoring code are that it can improve efficiency in the script, take fewer steps, use less memory, and allow the script to be better understood with improved logic. Disadvantages with refactoring code can be that since it was not created by the new user, it may be hard to understand the original intent of parts of the script if the script was not commented well.
+* Cons: Since refactoring uses the original code that may have been created by another user, it may be challenging to understand the purpose of the original script if it was not well commented. 
+
+#### How do these pros and cons apply to refactoring the original VBA script? 
+These pros and cons directly apply to refactoring the orignal VBA script, the refactored code was more efficient, took less memory and was executed quicker than the original code. The origial script was well commented and both original and refactored code were made by the same user, which made the task a little easier to perform, but there might still be room for improvement. 
+
